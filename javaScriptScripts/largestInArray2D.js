@@ -5,7 +5,6 @@ function largestOfFour(arr) {
     
     for(var i = 0; i < arr.length; i++){
         max = Math.max.apply(null,arr[i]);
-        console.log(max);
         arrayMax[i] = max;
     }
     
